@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body>
+    <main>
+        <section class="grid place-content-center h-screen">
+            <h1 class="text-4xl text-center">Select Your mood</h1>
+            <!-- mood button -->
+             <div class="flex justify-center text-5xl gap-12 my-12">
+                <button id="cry-emoji">😭</button>
+                <button id="happy-emoji">😄</button>
+                <button id="sleepy-emoji">😴</button>
+             </div>
+             <!-- mood response -->
+              <div>
+                <!-- text -->
+                 <p id="text-response" class="text-2xl">How are you feeling today?</p>
+                 <!-- img -->
+                 <div class="grid place-content-center">
+                    <img id="image-response" src="https://i.pinimg.com/736x/a4/d2/58/a4d25826015c3be6febe8480db47a739.jpg" class="w-64" alt="crying loopy">
+                 </div>
+              </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
